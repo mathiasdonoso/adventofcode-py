@@ -1,4 +1,4 @@
-class InverseCaptcha:
+class InverseCaptcha(object):
     def __init__(self, input):
         self.input = input
 

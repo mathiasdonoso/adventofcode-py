@@ -1,4 +1,4 @@
-class CorruptionChecksum:
+class CorruptionChecksum(object):
     def __init__(self, input):
         self.input = self.transform_input(input)
 
@@ -12,7 +12,6 @@ class CorruptionChecksum:
             new_input.append(groups)
         return new_input
 
-    
     def process(self):
         sum = 0
         for file in self.input:

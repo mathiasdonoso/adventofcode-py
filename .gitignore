@@ -116,3 +116,5 @@ dmypy.json
 !.vscode/launch.json
 !.vscode/extensions.json
 .vscode/
+
+.idea/
